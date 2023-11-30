@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package com.turnero.turneroapp.servlets;
 
 import com.turnero.turneroapp.logica.Controladora;
@@ -14,10 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- *
- * @author pedro
- */
 @WebServlet(name = "EditarEstadoTurnoSv", urlPatterns = {"/EditarEstadoTurnoSv"})
 public class EditarEstadoTurnoSv extends HttpServlet {
     
@@ -34,11 +26,8 @@ public class EditarEstadoTurnoSv extends HttpServlet {
         Turno turno = controlLogica.traerTurnoId(id);
         
         HttpSession misession = request.getSession();
-        
         misession.setAttribute("turnoEditar", turno);
-        
         response.sendRedirect("editarTurnos.jsp");
-        
     }
 
     //Método Post para mandar los datos editados del turno, en este caso solo editaremos el estado
@@ -51,9 +40,7 @@ public class EditarEstadoTurnoSv extends HttpServlet {
         Turno turno = (Turno)request.getSession().getAttribute("turnoEditar");
         
         turno.setEstado(estado);
-        
         controlLogica.editarTurno(turno);
-        
         response.sendRedirect("TurnoSv");
     }
 

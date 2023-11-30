@@ -6,7 +6,7 @@ import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-@Generated(value="EclipseLink-2.7.10.v20211216-rNA", date="2023-11-30T12:02:53")
+@Generated(value="EclipseLink-2.7.10.v20211216-rNA", date="2023-11-30T17:50:28")
 @StaticMetamodel(Turno.class)
 public class Turno_ { 
 

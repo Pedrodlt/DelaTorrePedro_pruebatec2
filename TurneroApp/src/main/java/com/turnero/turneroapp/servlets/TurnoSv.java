@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package com.turnero.turneroapp.servlets;
 
 import com.turnero.turneroapp.logica.Controladora;
@@ -20,10 +16,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author pedro
- */
 @WebServlet(name = "TurnoSv", urlPatterns = {"/TurnoSv"})
 public class TurnoSv extends HttpServlet {
     
@@ -88,8 +80,7 @@ public class TurnoSv extends HttpServlet {
                 request.setAttribute("errors", "El ciudadano con el ID proporcionado no existe. Comprueba el Listado de Ciudadanos.");
                 RequestDispatcher dispatcher = request.getRequestDispatcher("registroTurno.jsp");
                 dispatcher.forward(request, response);
-            }
-            
+            } 
         }   
     }
 
@@ -97,5 +88,4 @@ public class TurnoSv extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }
-
 }

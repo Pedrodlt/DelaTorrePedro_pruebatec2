@@ -1,15 +1,10 @@
-<%-- 
-    Document   : listadoTurnos
-    Created on : 29 nov 2023, 23:48:10
-    Author     : pedro
---%>
 <%@page import="java.util.List"%>
 <%@page import="com.turnero.turneroapp.logica.Turno"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@include file="components/header.jsp"%>
 <%@include file="components/navbarBody.jsp"%>
-<!-- Begin Page Content -->
-            
+
+<!-- Begin Page Content -->          
 <div class="container-fluid">
     <% if (request.getAttribute("turnos") != null) { %>
 

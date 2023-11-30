@@ -10,11 +10,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-
-/**
- *
- * @author pedro
- */
 @Entity
 public class Turno {
     @Id

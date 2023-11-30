@@ -1,9 +1,3 @@
-<%-- 
-    Document   : listadoUsuarios
-    Created on : 28 nov 2023, 2:12:28
-    Author     : pedro
---%>
-
 <%@page import="com.turnero.turneroapp.logica.Ciudadano"%>
 <%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

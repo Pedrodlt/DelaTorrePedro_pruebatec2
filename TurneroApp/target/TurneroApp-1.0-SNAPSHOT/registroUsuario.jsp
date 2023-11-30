@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 24 nov 2023, 22:10:28
-    Author     : pedro
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@include file="components/header.jsp"%>
 <%@include file="components/navbarBody.jsp"%>

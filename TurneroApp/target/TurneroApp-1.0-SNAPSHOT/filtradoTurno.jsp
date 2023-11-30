@@ -1,9 +1,3 @@
-<%-- 
-    Document   : filtradoTurno
-    Created on : 26 nov 2023, 19:23:09
-    Author     : pedro
---%>
-
 <%@page import="java.util.List"%>
 <%@page import="com.turnero.turneroapp.logica.Turno"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -1,8 +1,3 @@
-<%-- 
-    Document   : editarTurnos
-    Created on : 29 nov 2023, 19:29:35
-    Author     : pedro
---%>
 <%@page import="com.turnero.turneroapp.logica.Turno"%>
 <%@page import="java.util.Objects"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

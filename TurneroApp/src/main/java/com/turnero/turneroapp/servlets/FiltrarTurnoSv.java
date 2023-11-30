@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package com.turnero.turneroapp.servlets;
 
 import com.turnero.turneroapp.logica.Controladora;
@@ -19,10 +15,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author pedro
- */
 @WebServlet(name = "FiltrarTurnoSv", urlPatterns = {"/FiltrarTurnoSv"})
 public class FiltrarTurnoSv extends HttpServlet {
 
